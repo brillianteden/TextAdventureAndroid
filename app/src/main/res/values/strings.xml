@@ -1,0 +1,844 @@
+<resources>
+    <string name="app_name">TextAdventure-Android</string>
+
+    <string name="End_Story">Your journey has ended for now. The game has been reset and is ready for you to try again when you are ready.</string>
+    <string name="End_Ans1"></string> // both buttons are hidden
+    <string name="End_Ans2"></string>
+
+    <string name="Temp_Story">Suddenly, everything goes dark and strangely silent. The only plausible explanation is that this part of the story
+        hasn\'t been written yet! Luckily, there is an invisible portal to take you back to the beginning of the story so that you can keep playing.
+    </string>
+    <string name="Temp_Ans1">Start over!</string> // leads to T1_Story
+    <string name="Temp_Ans2">Play later.</string> // leads to End_Story
+
+    // Strings for main storyline
+    <string name="T1_Story">You\'ve taken a break from studying to do some geocaching downtown. Nothing calms the nerves like hiding the small
+        collectibles you find at garage sales, knowing that it may be years before someone else stumbles upon your secret. Speaking of secrets,
+        that\'s an unusual looking manhole cover. It must be at least 50 years old, and judging by the dust covering it, it hasn\'t been opened in
+        years. You always have a small flashlight on you, and you\'re tempted to go in now. Or should you find a friend to come with you?</string>
+    <string name="T1_Ans1">Go in now!</string> // leads to T2_Story
+    <string name="T1_Ans2">Safety in numbers. Find a friend.</string> // leads to T3_Story
+
+    <string name="T2_Story">With some serious tugging, the manhole cover lifts off and exposes a 10 foot deep hole. The stone wall has some rusty
+        metal rungs suitable for climbing. As you carefully lower yourself to the uneven stone floor below, you turn on your flashlight with a slight
+        click. These tunnels have seen better days for sure! Do you examine the immediate area, or move on?</string>
+    <string name="T2_Ans1">Examine the area.</string> // leads to T4_Story
+    <string name="T2_Ans2">Move on.</string> // leads to T5_Story
+
+    <string name="T3_Story">Despite your curiosity, you realize that no one knows where you are. It would be wise to bring someone with you in case
+        something happens underground. Two of your friends come to mind, either Elaine or Greg. Elaine is likely studying at the library right now,
+        and she has a lot of knowledge about the city\'s history. Greg is usually at the gym at this hour. He\'s always up for an adventure, and his
+        strength could come in handy.</string>
+    <string name="T3_Ans1">Take Elaine.</string> // leads to E6_Story
+    <string name="T3_Ans2">Take Greg.</string> // leads to G7_Story
+
+    <string name="T4_Story">After spending a few moments poking under some loose rocks, you do not find anything useful. A few tiny bugs scurry off,
+        perturbed by your rough handling of their hiding spots. While investigating the area, you do hear a faint indiscernible noise down the left
+        tunnel. However, the right tunnel seems ominously quiet. Which way do you go?</string>
+    <string name="T4_Ans1">Go left.</string> // leads to T8_Story
+    <string name="T4_Ans2">Go right.</string> // leads to T9_Story
+
+    <string name="T5_Story">Lets not waste time turning over rocks. You can go left or right. Which do you choose?</string>
+    <string name="T5_Ans1">Go left</string> // leads to T8_Story
+    <string name="T5_Ans2">Go right</string> // leads to T9_Story
+
+    <string name="T8_Story">The left passage opens into a small room in which the walls and ceiling have somewhat crumbled away with time. All around
+        the floor you see trash and debris of times gone by - various rusty bits of cans, silverware, etc., along with faded and torn papers... old
+        newspapers maybe? Further down the tunnels sounds the running water. Do you take the time to go through the debris, or move on down the
+        tunnels? Your flashlight beam shows the tunnel continues forward, or you can go through the crack in the wall to your right.</string>
+    <string name="T8_Ans1">Search the debris.</string> // leads to T14_Story
+    <string name="T8_Ans2">Move on!</string> // leads to T15_Story
+
+    <string name="T9_Story">You follow the right passage, which soon opens into a large underground area. Mining cart tracks can be seen running as far
+        as you can see to the left, but to the right it seems there was a cave in of some sort which has buried the tracks and blocked the path. One of
+        the carts sits still on its tracks. Nearby you see what looks to be a lift.</string>
+    <string name="T9_Ans1">Inspect the area.</string> // leads to T20_Story
+    <string name="T9_Ans2">Follow the tracks.</string> // leads to T21_Story
+
+    <string name="T14_Story">One of the stones moves slightly underfoot. Underneath you find an aged letter which seems to be somewhat intact! It
+        reads: \'Dear Stranger, Herein you will find the last will and testament of James --- As I have no living heirs, I leave my trea--- to you.
+        That is to say that it is yours if you can --- Where the eye is before the E, the stars surround her. In God she trusts, but --- believes in
+        one ideal above others. Find it, and a small fortune --- yours.\' Let\'s go find it! Straight ahead, the tunnel continues on, but there is a
+        crack in the wall to the right.</string>
+    <string name="T14_Ans1">Go forward.</string> // leads to T26_Story
+    <string name="T14_Ans2">Go right.</string> // leads to T27_Story
+
+    <string name="T15_Story">Lets not waste time digging through newspapers. You can continue forward down the tunnel, or explore a crack in the wall
+        to your right.</string>
+    <string name="T15_Ans1">Go forward.</string> // leads to T26_Story
+    <string name="T15_Ans2">Go right.</string> // leads to T27_Story
+
+    <string name="T20_Story">Upon further inspection, it looks like the lift has seen better days. The chains and levers that work it seem to have
+        rusted and become unusable. You check the mine cart, but it\'s empty and rusted. As you look at the rocks, you see something flash white very
+        briefly. You hop up on the rocks and look at it at an angle, and see that some poor unfortunate person from days past got trapped under rocks!
+        You briefly give your condolences before hurriedly making your way down the tracks.</string>
+    <string name="T20_Ans1"></string> // this button will be hidden
+    <string name="T20_Ans2">Continue.</string> // leads to T21_Story
+
+    <string name="T21_Story">You continue down the wide tunnel and follow the tracks. The dirt and rocks crunch loudly beneath your shoes, emphasized
+        by the echo they make. Various faint foreign noises float through the tunnels, like whispers of times gone by. Some orbs float past your
+        light and give the place an eerie feel, so you quicken your pace just a bit and hurry on.</string>
+    <string name="T21_Ans1"></string> // this button will be hidden
+    <string name="T21_Ans2">Continue.</string> // leads to T32_Story
+
+    <string name="T26_Story">As you continue exploring, the sound of rushing water is unmistakable; you imagine not too much further down you should
+        be able to see it soon! Meanwhile the tunnels have become a lot rougher... as if this area was haphazardly chipped away by some diggers. All
+        around are various chunks of rock, and some scattered tracks of small critters. Do you wish to go straight, towards the sound of water? Or
+        explore where the diggers went, and go left?</string>
+    <string name="T26_Ans1">Go straight.</string> // leads to T33_Story
+    <string name="T26_Ans2">Go left.</string> // leads to T38_Story
+
+    <string name="T27_Story">You squeeze your way into the crack, which opens up into a small cave. As you start exploring the cave, from the opening
+        you hear someone say \"Hello? Is someone down here?\" Though you may try to hide, there really isn\'t anywhere else to go. Inevitably you see
+        a light shine your way, and with a sigh they say \"Excuse me, you are trespassing here and need to leave. Please come with me.\" Uh oh...
+        busted!</string>
+    <string name="T27_Ans1">Try again!</string> // leads to T1_Story
+    <string name="T27_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="T32_Story">After what seemed like an eternity of following the tracks, but was probably only 15 minutes or so, you notice an odd
+        tunnel veering off diagonally to the left of you. It looks like whoever was digging down here found something interesting and carved out a
+        spidery path. Flecks of something metallic can be seen coating the floor. Do you wish to examine the area better? Maybe go down this tunnel
+        and away from the tracks? Or keep following the tracks and see where they go? Hmm.</string>
+    <string name="T32_Ans1">Investigate the flecks.</string> // leads to T39_Story
+    <string name="T32_Ans2">Move on!</string> // leads to T44_Story
+
+    <string name="T33_Story">The tunnel breaks into an underwater river that rushes merrily past you. You flash your light across the water and
+        notice a natural cave entrance on the other side angling up and going further in. You would have to cross the river, but it looks to be
+        shallow in enough spots to safely cross. To your left a dug out tunnel continues which might be worth exploring. Which way do you go?</string>
+    <string name="T33_Ans1">Cross the river.</string> // leads to T45_Story
+    <string name="T33_Ans2">Explore the tunnels.</string> // leads to T110_Story
+
+    <string name="T38_Story">In this part of the tunnel rests a heaping load of various broken things. You see what appears to be broken mine picks,
+        discarded cans, splintered shovels, bits of old paper, and pieces of torn clothing. Mixed in with this are heaping loads of rocks, as if it
+        all got jumbled together before being dumped off here. When you accidentally kick a can, a rat scurries off squeaking noisily. You are fairly
+        certain there are more down here by the looks of it. You can continue off to your right, or keep going straight ahead through these tunnels.
+        Do you wish to search or continue on?"</string>
+    <string name="T38_Ans1">Search for treasure!</string> // leads to T51_Story
+    <string name="T38_Ans2">Move on!</string> // leads to T56_Story
+
+    <string name="T39_Story">You lightly touch the dust and rub it between your fingers a bit. Is this silver? Not sure, but interesting nevertheless.
+        While checking that out, something else catches your eye as another metallic glint. You make your way over to where you saw the glint, and
+        with a bit of poking around, you manage to find a small silvery-looking rock! You decide to bring it with you for good luck. Now where to go
+        next? I wonder if the tunnel will have more neat things like the silvery rock, or if the tracks will lead to someplace interesting.</string>
+    <string name="T39_Ans1">Explore the tunnel.</string> // leads to T57_Story
+    <string name="T39_Ans2">Follow the tracks.</string> // leads to T62_Story
+
+    <string name="T44_Story">Lets not waste time digging through metallic flecks.</string>
+    <string name="T44_Ans1">Explore the tunnel.</string> // leads to T57_Story
+    <string name="T44_Ans2">Follow the tracks.</string> // leads to T62_Story
+
+    <string name="T45_Story">You wade into the river a bit -- ooh that\'s cold! -- and make your way across using the shallow spots to guide you.
+        The water is moving rather powerfully, more so than you expected, but by keeping out of the deep spots you manage to make your way across
+        and into the cave. Hopefully nothing got too wet! The cave itself it\'s definitely interesting, especially since you've never seen what
+        stalactites and stalagmites looked like in person before. Angling to your right there is another cave opening that you think you could reach
+        if you climbed just a bit. Let's see where this goes...</string>
+    <string name="T45_Ans1"></string> // this button will be hidden
+    <string name="T45_Ans2">Continue.</string> // leads to T63_Story
+
+    <string name="T50_Story">Heading back</string>
+    <string name="T50_Ans1"></string> // leads to T
+    <string name="T50_Ans2"></string> // leads to T
+
+    <string name="T51_Story">When you start to search around, more rats start popping out of the piles and scurry off in various directions. You are
+        pretty sure this is the proverbial \'rat\'s nest\' that folks usually only joke about. Unfortunately, nothing turns up of use or value. Oh
+        well! Onwards we go! Now the question is, forward or to the right?</string>
+    <string name="T51_Ans1">Go straight.</string> // leads to T105_Story
+    <string name="T51_Ans2">Go right.</string> // leads to T110_Story
+
+    <string name="T56_Story">Let\'s not dig through more trash. You can go straight or turn right.</string>
+    <string name="T56_Ans1">Go straight.</string> // leads to T105_Story
+    <string name="T56_Ans2">Go right.</string> // leads to T110_Story
+
+    <string name="T57_Story">Down the tunnel you go, and where it stops, nobody knows! Speaking of which, you remind yourself that nobody knows you are
+        down here, and so the excitement of adventure gives way to a bit of paranoia. Something clatters nearby which startles you a bit! You flash your
+        light over, but it looks like it was only a loose rock that shifted and fell... because they do that... right? You quicken your pace a bit and
+        hurry on down the tunnel, hoping to not get a different answer to that question!</string>
+    <string name="T57_Ans1"></string> // this button will be hidden
+    <string name="T57_Ans2">Move on.</string> // leads to T74_Story
+
+    <string name="T62_Story">You make your way in what appears to be a junction of some sort. The tracks continue down the tunnel, but now there is
+        another set that lead away down the left. In the middle is a circular contraption that looks like was used to change the direction of a mine
+        cart. All around here are various discarded tools used for mining. You notice an old pickaxe, a rusty lantern, and a shovel; all of which are
+        haphazardly lying about in various states of disrepair. An old mine cart is toppled over off to the side, and some sort of noise is coming from
+        it. Do you wish to investigate? Or is it time to go down one of the tunnels?</string>
+    <string name="T62_Ans1">Investigate the noise.</string> // leads to T75_Story
+    <string name="T62_Ans2">Move on.</string> // leads to T81_Story
+
+    <string name="T63_Story">As you work your way up, the climb takes about as much effort as a steep hike, and you make your way to the top... a
+        bit muddy if nothing else. As you continue on, there is a natural arch that overlooks the river where you can hear the water quickly
+        rushing - how cool! But wait, what\'s that further on down? Another cave? Another dig site? It looks like someone setup a camp here, but
+        decades ago. What catches your eye is another glint of something metallic, near a sack of some sort. Coins? The river looks particularly
+        dangerous here, in a tighter spot than where you crossed last. Do you want to brave it and go check out the camp site? Or turn back because
+        it could be really dangerous this time?</string>
+    <string name="T63_Ans1">Brave the river!</string> // leads to T92_Story
+    <string name="T63_Ans2">Turn back.</string> // leads to T86_Story
+
+    <string name="T68_Story">Continue tunnels by river</string>
+    <string name="T68_Ans1"></string> // leads to T
+    <string name="T68_Ans2"></string> // leads to T
+
+    <string name="T69_Story">Continue tunnels by river</string>
+    <string name="T69_Ans1"></string> // leads to T
+    <string name="T69_Ans2"></string> // leads to T
+
+    <string name="T74_Story">While making your way further down the tunnel, you start to hear a faint *whooshing* noise coming from further ahead. A
+        squishy, gurgly, grumbly noise emanates from your stomach, and you realise that it\'s been a bit before you had something to eat. Fortunately
+        you remembered to at least grab an energy bar before heading out, and quickly unwrap and devour it. A quick swig from your water bottle washes
+        it down, before you realize that you don\'t have much more left. Feeling reinvigorated, you press on!</string>
+    <string name="T74_Ans1"></string> // this button will be hidden
+    <string name="T74_Ans2"></string> // leads to T98_Story
+
+    <string name="T75_Story">As as quietly as you can, you make your way over to the mine cart. Before you are almost there, a large brown rat hops out
+        from around the corner, eyes gleaming white with the reflection from your flashlight. It stands on its hind legs, and gives you a few cursory
+        sniffs with a twitch of its whiskers before scampering back into the cart. Let's leave that little fella alone and go find something more
+        interesting to look at. You hear a faint noise down the left tunnel, but the one ahead of you is silent. Which way now?</string>
+    <string name="T75_Ans1">Explore new tunnel.</string> // leads to T57_Story
+    <string name="T75_Ans2">Continue straight.</string> // leads to T111_Story
+
+    <string name="T80_Story"></string>
+    <string name="T80_Ans1"></string> // leads to T
+    <string name="T80_Ans2"></string> // leads to T
+
+    <string name="T81_Story">Moving on without investigating noise.</string>
+    <string name="T81_Ans1">Left new tunnel.</string> // leads to T57_Story
+    <string name="T81_Ans2">Straight.</string> // leads to T111_Story
+
+    <string name="T86_Story">Continue animal tracks</string>
+    <string name="T86_Ans1"></string> // leads to T
+    <string name="T86_Ans2"></string> // leads to T
+
+    <string name="T87_Story">Continue animal tracks</string>
+    <string name="T87_Ans1"></string> // leads to T
+    <string name="T87_Ans2"></string> // leads to T
+
+    <string name="T92_Story">You look around for a way down, and manage to find a rocky area that seems to have enough hand and foot holds to get
+        down to the river. As you start to climb down, the rocks come out from your grasp! OH NO! *SPLASH!* You fall into the river and briefly try
+        to orient yourself before hitting your head on something that hurts! ...as all goes black... another soul claimed by the temptations of these
+        ancient tunnels.</string>
+    <string name="T92_Ans1">Try again!</string> // leads to T1_Story
+    <string name="T92_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="T93_Story">Turning back from second crossing</string>
+    <string name="T93_Ans1"></string> // leads to T
+    <string name="T93_Ans2"></string> // leads to T
+
+    <string name="T98_Story">There is definitely some sort of water making noise further ahead. You can feel the tunnels getting damper, and see little
+        mushrooms along the floors. Various tiny critters skitter away at your light, finding solace in cracks and crannies in the rock. A faint odor
+        is in the air, like the smell of a hamster cage... how odd! You press on, curious about this new change.</string>
+    <string name="T98_Ans1"></string> // this button will be hidden
+    <string name="T98_Ans2">Continue.</string> // leads to T99_Story
+
+    <string name="T99_Story">Making your way down the tunnel, you come to the edge of river. It\'s moving pretty fast here, going over various rocks and
+        other debris. Nearby, you notice what was making the weird smell. It looks like a colony of bats have made their home here, and the smell is
+        coming from their guano. Various roaches seem to have made their home in the guano, so you give all that a wide berth. Across the river looks
+        like someone set up a camp here, but decades ago. What catches your eye is a glint of something metallic, near a sack of some sort. Coins? An
+        old wood bridge, broken in the middle now, seems to have been how folks made their way across in the past. Do you search around for a way across,
+        or is it time to head back down a different route?</string>
+    <string name="T99_Ans1">Search around.</string> // leads to T104_Story
+    <string name="T99_Ans2">Head back.</string> // leads to T50_Story
+
+    <string name="T104_Story">Looking around, you see a log that looks like it could span the gap, but it\'s too heavy for you to move - drat! While
+        poking around, you notice that the bats are starting to move around a bit more, and have a vision of all of those movies you watched as a kid
+        where people get swarmed by them. Let's not see if that actually happens - time to go explore elsewhere. You make your way back down the tunnel
+        with a sigh.</string>
+    <string name="T104_Ans1"></string> // this button will be hidden
+    <string name="T104_Ans2"></string> // leads to T
+
+    <string name="T105_Story">Now this is interesting! Crystal-looking stalagmites and stalagtites jut from the floor and ceiling of this cavern, glowing
+        a pale white in your light. Are these quartz crystals maybe? You break off a smaller one and squirrel it away to look at later. Nothing else here
+        seems to pique your interest. You look around and notice that the cave continues to your right - Let\'s see where it leads!</string>
+    <string name="T105_Ans1"></string> // this button will be hidden
+    <string name="T105_Ans2">Continue.</string> // leads to T
+
+    <string name="T110_Story">The tunnel opens up to a large underground river that gurgles merrily. The light from your flashlight catches various
+        sparkly bits which illuminates the water with a slight disco ball pattern. Other things seem to be reflecting from down one tunnel. The other way
+        the river continues which can be followed.</string>
+    <string name="T110_Ans1">Investigate reflection.</string> // leads to T
+    <string name="T110_Ans2">Follow the river.</string> // leads to T
+
+    <string name="T111_Story">As you follow the tracks, off to your right you see a chute of some sort leading up and into another room.  Through this
+        chute you can feel air blowing past you and on down where you came from. Nearby, an old and rickety-looking ladder heads up and over in the
+        direction of the chute. All around you there are rocks of various sizes cluttering the ground. Further on the tracks and tunnel continue. Do you
+        wish to go up the ladder, or continue down the tracks?</string>
+    <string name="T111_Ans1">Climb the ladder!</string> // leads to T
+    <string name="T111_Ans2">Continue down the tunnel.</string> // leads to T
+
+    <string name="T116_Story"></string>
+    <string name="T116_Ans1"></string>
+    <string name="T116_Ans2"></string>
+
+    <string name="T117_Story"></string>
+    <string name="T117_Ans1"></string>
+    <string name="T117_Ans2"></string>
+
+    <string name="T122_Story"></string>
+    <string name="T122_Ans1"></string>
+    <string name="T122_Ans2"></string>
+
+    <string name="T123_Story"></string>
+    <string name="T123_Ans1"></string>
+    <string name="T123_Ans2"></string>
+
+    <string name="T128_Story"></string>
+    <string name="T128_Ans1"></string>
+    <string name="T128_Ans2"></string>
+
+    <string name="T129_Story"></string>
+    <string name="T129_Ans1"></string>
+    <string name="T129_Ans2"></string>
+
+
+
+    // Strings for Elaine's storyline
+    <string name="E6_Story">Elaine is nervous about going underground, but she can\'t resist the opportunity to discover more of your city\'s history.
+        She packs a backpack that would make a certain umbrella carrying nanny proud, and you return to start your adventure. With some serious
+        tugging, the manhole cover lifts off and exposes a 10 foot deep hole. The stone wall has metal rungs suitable for climbing. You carefully
+        lower yourself to the uneven stone floor below and Elaine timidly follows. Your flashlight beam shows a wide passage to the left and another
+        to the right.</string>
+    <string name="E6_Ans1">Check out the area.</string> // leads to E10_Story
+    <string name="E6_Ans2">Move on.</string> // leads to E11_Story
+
+    <string name="E10_Story">After spending a few moments poking under some loose rocks, you do not find anything useful. A few tiny bugs scurry off,
+        perturbed by your rough handling of their hiding spots. While investigating the area, you do hear a faint indiscernible noise down the left
+        tunnel. However, the right tunnel seems ominously quiet. Which way do you go?</string>
+    <string name="E10_Ans1">Go left.</string> // leads to E16_Story
+    <string name="E10_Ans2">Go right.</string> // leads to E17_Story
+
+    <string name="E11_Story">Lets not waste time turning over rocks. You can go left or right. Which do you choose?</string>
+    <string name="E11_Ans1">Go left.</string> // leads to E16_Story
+    <string name="E11_Ans2">Go right.</string> // leads to E17_Story
+
+    <string name="E16_Story">The left passage opens into a small room. One of the stones moves slightly underfoot. Underneath Elaine finds an aged
+        letter, mostly intact. It reads: \'Dear Stranger, Herein you will find the last will and testament of James ---  As I have no living heirs, I
+        leave my trea--- to you. That is to say that it is yours if you can --- Where the eye is before the E, the stars surround her. In God she
+        trusts, but --- believes in one ideal above others. Find it, and a small fortune --- yours.\' Straight ahead, the passage continues on, but
+        there is an additional larger passage to the right.</string>
+    <string name="E16_Ans1">Go forward.</string> // leads to E22_Story
+    <string name="E16_Ans2">Go right.</string> // leads to E23_Story
+
+    <string name="E17_Story">You follow the right passage, which soon opens into a large underground area. Mining cart tracks can be seen running as
+        far as you can see to the left, but to the right it seems there was a cave in of some sort which has buried the tracks and blocked the path.
+        One of the carts sits still on its tracks. Nearby you see what looks to be a lift. Elaine thinks this used to be where ore would be brought
+        to be smelted in the building above, and that this used to be an active silver mine ages ago. Shall we look around for some goodies? Or follow
+        the tracks?</string>
+    <string name="E17_Ans1">Inspect the area.</string> // leads to E28_Story
+    <string name="E17_Ans2">Follow the tracks.</string> // leads to E29_Story
+
+    <string name="E22_Story">As you continue exploring, the sound of rushing water is unmistakable; you imagine not too much further down you should
+        be able to see it soon! Meanwhile the tunnels have become a lot rougher... as if this area was haphazardly chipped away by some diggers. All
+        around are various chunks of rock, and some scattered tracks of small critters. Elaine shies away from the tracks, but you assure her you've
+        seen no recent evidence of vermin. Elaine thinks this area might have been a mine at some point. Do you wish to go straight, towards the sound
+        of water? Or explore where the diggers went, and go left?</string>
+    <string name="E22_Ans1">Go straight.</string> // leads to E34_Story
+    <string name="E22_Ans2">Go left.</string> // leads to E35_Story
+
+    <string name="E23_Story">You squeeze your way into the crack, but Elaine gets a look on her face which indicates that\'s not going to happen with
+        her! This opens up into a small cave, and as you start exploring the cave, from the opening you hear a scream from Elaine, and then a
+        startled \"Hello? Is someone down here?\" Inevitibly you see a light shine your way, and with a sigh they say \"Excuse me, you are
+        trespassing here and need to leave. Please come with me.\" Uh oh... busted! Do you want to play again?</string>
+    <string name="E23_Ans1">Try again.</string> // Leads to T1_Story
+    <string name="E23_Ans2">Play later.</string> // Ends game and leads to End_Story
+
+    <string name="E28_Story">Upon further inspection, it looks like the lift has seen better days. The chains and levers that work it seem to have
+        rusted and become unusable. You check the mine cart, but it\'s empty and rusted. As you look at the rocks, you see something flash white very
+        briefly. You hop up on the rocks and look at it at an angle, and see that some poor unfortunate person from days past got trapped under rocks!
+        You don\'t want to spook Elaine this quickly into the exploration, so you mumble something about \"...big, heavy, rocks...\" and hurriedly
+        make your way down the tracks.</string>
+    <string name="E28_Ans1"></string> // This button will be hidden
+    <string name="E28_Ans2">Continue.</string> // leads to E29_Story
+
+    <string name="E29_Story">You continue down the wide tunnel and follow the tracks. The dirt and rocks crunch loudly beneath your shoes, emphasized
+        by the echo they make. Various faint foreign noises float through the tunnels, like whispers of times gone by. Some orbs float past you light
+        and give the place an eerie feel. Elaine grasps onto your arm while you walk. She mentions that she read that orbs can sometimes be spirits
+        floating by, but that\'s just nonsense, right? You both look at each other for a moment, and then quicken your pace a bit.</string>
+    <string name="E29_Ans1"></string> // this button will be hidden
+    <string name="E29_Ans2">Continue.</string> // leads to E40_Story
+
+    <string name="E34_Story">The tunnel breaks into an underwater river that rushes merrily past you. You flash your light across the water and
+        notice a natural cave entrance on the other side angling up and going further in. You would have to cross the river, but it looks to be
+        shallow in enough spots to safely cross. Elaine looks at the cave, and then back to you before saying \"There is no way I am crossing that!
+        You are on your own if you want to cross and poke around in there!\" To your left a dug out tunnel continues which might be worth exploring.
+        Which way do you go?</string>
+    <string name="E34_Ans1">Cross alone.</string> // leads to E41_Story
+    <string name="E34_Ans2">Go left with Elaine.</string> // leads to E58_Story
+
+    <string name="E35_Story">In this part of the tunnel rests a heaping load of various broken things. You see what appears to be broken mine picks,
+        discarded cans, splintered shovels, bits of old paper, and pieces of torn clothing. Mixed in with this are heaping loads of rocks, as if it all
+        got jumbled together before being dumped off here. When you accidentally kick a can, a rat scurries off squeaking noisily which makes Elaine
+        scream and go down the next tunnel with a "NOPE! NOPE! NOPE!" trailing after her. Let's go catch up with her!</string>
+    <string name="E35_Ans1"></string> // this button will be hidden
+    <string name="E35_Ans2">Follow Elaine!</string> // leads to E46_Story
+
+    <string name="E40_Story">After what seemed like an eternity of following the tracks, but was probably only 15 minutes or so, you both notice an
+        odd tunnel veering off diagonally to the left of you. It looks like whoever was digging down here found something interesting and carved out
+        a spidery path. Elaine mentions this was definitely a mine vein! Flecks of something metallic can be seen coating the floor which Elaine
+        suspects to be either Iron or Silver. Do you wish to examine the area better? Maybe go down this tunnel and away from the tracks? Or keep
+        following the tracks and see where they go?</string>
+    <string name="E40_Ans1">Investigate the flecks.</string> // leads to E52_Story
+    <string name="E40_Ans2">Move on!</string> // leads to E53_Story
+
+    <string name="E41_Story">You wade into the river a bit -- ooh that\'s cold! -- and make your way across using the shallow spots to guide you.
+        The water is moving rather powerfully, more so than you expected, but by keeping out of the deep spots you manage to make your way across and
+        into the cave. Hopefully nothing got too wet! The cave itself it\'s definitely interesting, especially since you\'ve never seen what stalactites
+        and stalagmites looked like in person before. Angling to your right there is another cave opening that you think you could reach if you
+        climbed just a bit. Let\'s see where this goes...</string>
+    <string name="E41_Ans1"></string> // this button will be hidden
+    <string name="E41_Ans2">Continue</string> // leads to E59_Story
+
+    <string name="E46_Story">You catch up with Elaine who looks to have completely forgotten what she was running from. Now this is interesting!
+        Crystal-looking stalagmites and stalagtites jut from the floor and ceiling of this cavern, glowing a pale white in your light. Are these quartz
+        crystals maybe? You break off a smaller one and squirrel it away to look at later. Nothing else here seems to pique your interest. You look
+        around and notice that the cave continues on - Let\'s see where it leads!</string>
+    <string name="E46_Ans1"></string> // lthis button will be hidden
+    <string name="E46_Ans2"></string> // leads to E47_Story
+
+    <string name="E47_Story">As you both make your way further into the crystal caves, you have to squint a bit, as the light reflecting off of them
+        somewhat blinding! It\'s like you stepped into a large geode made of huge white crystals! You both \"Oooh!\" and \"Wow!\" at the sight before
+        you. This area is very serene, and almost hums as you look around. Or maybe that noise is water? You definitely hear water further up. After
+        taking a quick picture, and giving Elaine a minute to break off a small crystal, you both gingerly make your way between the massive
+        crystals.</string>
+    <string name="E47_Ans1"></string> // this button will be hidden
+    <string name="E47_Ans2">Follow the sound.</string> // leads to E58_Story
+
+    <string name="E52_Story">Elaine lightly touch the dust and rubs it between her fingers a bit. This is definitely silver! While she is checking
+        that out, something else catches your eye as another metallic glint. You make your way over to where you saw the glint, and with a bit of
+        poking around, you manage to find a small chunk of silver! You decide to bring it with you for good luck. Now where to go next? I wonder if
+        the tunnel will have more neat things, or if the tracks will lead to someplace interesting.</string>
+    <string name="E52_Ans1">Explore the tunnel.</string> // leads to E70_Story
+    <string name="E52_Ans2">Follow the tracks.</string> // leads to E71_Story
+
+    <string name="E53_Story">Lets not waste time digging through metallic flecks.</string>
+    <string name="E53_Ans1">Explore the tunnel.</string> // leads to E70_Story
+    <string name="E53_Ans2">Follow the tracks.</string> // leads to E71_Story
+
+    <string name="E58_Story">The tunnel opens up to a large underground river that gurgles merrily. The light from your flashlight catches various
+        sparkly bits which illuminates the water with a slight disco ball pattern. Elaine is fascinated by the small crystals which seem to be
+        reflecting the light. The river continues which can be followed.</string>
+    <string name="E58_Ans1"></string> // this button will be hidden.
+    <string name="E58_Ans2">Follow the river.</string> // leads to E
+
+    <string name="E59_Story">As you work your way up, the climb takes about as much effort as a steep hike, and you make your way to the top... a bit
+        muddy if nothing else. As you continue on, there is a natural arch that overlooks the river where you can hear the water quickly rushing -
+        how cool! But wait, what\'s that further on down? Another cave? Another dig site? It looks like someone setup a camp here, but decades ago.
+        What catches your eye is another glint of something metallic, near a sack of some sort. Coins? The river looks particularly dangerous here,
+        in a tighter spot than where you crossed last. Do you want to brave it and go check out the camp site? Or turn back because it could be really
+        dangerous this time?</string>
+    <string name="E59_Ans1">Brave the river.</string>// leads to E64_Story
+    <string name="E59_Ans2">Return to Elaine.</string> // leads to E65_Story
+
+    <string name="E64_Story">You look around for a way down, and manage to find a rocky area that seems to have enough hand and foot holds to get
+        down to the river. As you start to climb down, the rocks come out from your grasp! OH NO! *SPLASH!* You fall into the river and briefly try
+        to orient yourself before hitting your head on something that hurts! ...as all goes black... another soul claimed by the temptations of these
+        ancient tunnels.</string>
+    <string name="E64_Ans1">Try again?</string> // leads to T1_Story
+    <string name="E64_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="E65_Story">Returning to Elaine.</string>
+    <string name="E65_Ans1"></string> // leads to E
+    <string name="E65_Ans2"></string> // leads to E
+
+    <string name="E70_Story">Down the tunnel you go, and with a happy Elaine coming with. Something clatters nearby which startles you both a bit!
+        You flash your light over, but it looks like it was only a loose rock that shifted and fell. Elaine has you shine your light all around until
+        she is certain that some crazy monster isn't coming after you. You both quicken your pace a bit and hurry on down the tunnel, hoping to not to
+        have missed anything!</string>
+    <string name="E70_Ans1"></string> // this button will be hidden
+    <string name="E70_Ans2">Moving on.</string> // leads to E76_Story
+
+    <string name="E71_Story">You make your way in what appears to be a junction of some sort. The tracks continue down the tunnel, but now there is
+        another set that lead away down the left. In the middle is a circular contraption that Elaine says was used to change the direction of a mine
+        cart. All around here are various discarded tools used for mining. You notice an old pickaxe, a rusty lantern, and a shovel; all of which are
+        haphazardly lying about in various states of disrepair. An old minecart is toppled over off to the side, and some sort of noise is coming from
+        it. Elaine squeaks and gives you a frantic look - time to go!</string>
+    <string name="E71_Ans1">New tracks.</string> // leads to E70_Story
+    <string name="E71_Ans2">Same tracks.</string> // leads to E88_Story
+
+    <string name="E76_Story">While making your way further down the tunnel, you start to hear a faint *whooshing* noise coming from further ahead. A
+        squishy, gurgly, grumbly noise emanates from your stomach, and you realise that it\'s been a bit before you had something to eat. Fortunately
+        Elaine remembered to grab some food and drinks before heading out, and you both take a quick break to satiate yourselves before moving on.
+        Feeling reinvigorated, you press on!</string>
+    <string name="E76_Ans1"></string> // this button will be hidden
+    <string name="E76_Ans2">Continue.</string> // leads to E77_Story
+
+    <string name="E77_Story">There is definitely some sort of water making noise further ahead. You can feel the tunnels getting damper, and see little
+        mushrooms along the floors. Various tiny critters skitter away at your light, finding solace in cracks and crannies in the rock. A faint odor
+        is in the air, like the smell of a hamster cage... how odd! You mention this to Elaine, who was warily eyeing the bugs. She sniffs the air, and
+        then grimaces a bit before mentioning to you that there are probably bats where we are headed. You cautiously make your way along the tracks,
+        keeping an eye above you and on the ground for signs.</string>
+    <string name="E77_Ans1"></string> // this button will be hidden
+    <string name="E77_Ans2">Head back.</string> // leads to E82_Story
+
+    <string name="E82_Story">Making your way down the tunnel, you come to the edge of river. It\'s moving pretty fast here, going over various rocks and
+        other debris. Nearby, you find a colony of bats have made their home here, and the smell is coming from their guano. Various roaches seem to
+        have made their home in the guano, so both of you give all that a wide berth. Across the river looks like someone set up a camp here, but decades
+        ago. What catches your eye is a glint of something metallic, near a sack of some sort. Coins? An old wood bridge, broken in the middle now, seems
+        to have been how folks made their way across in the past. Do you search around for a way across, or is it time to head back down a different
+        route?</string>
+    <string name="E82_Ans1">Search around.</string> // leads to E83_Story
+    <string name="E82_Ans2">Go back.</string> // leads to E
+
+    <string name="E83_Story">While you search around, Elaine finds herself a spot as far away from the bats and bugs as possible. To your surprise, she
+        says she\'s found something over there, and calls you over to see it. It seems that there is a crack in the cave wall which leads further on
+        along the river. Maybe there is a safe way across?</string>
+    <string name="E83_Ans1">Explore batcave.</string> // leads to E89_Story
+    <string name="E83_Ans2">Return to tracks.</string> // leads to E
+
+    <string name="E88_Story">As you follow the tracks, off to your right you see a chute of some sort leading up and into another room.  Through this
+        chute you can feel air blowing past you and on down where you came from. Nearby, an old and rickety-looking ladder heads up and over in the
+        direction of the chute. All around you there are rocks of various sizes cluttering the ground. Elaine explains that this chute was used to drop
+        ore into the mine carts, and that there is probably an air vent further up. Further on the tracks and tunnel continue. Do you wish to go up the
+        ladder, or continue down the tracks?</string>
+    <string name="E88_Ans1">Climb the ladder!</string> // leads to E118_Story
+    <string name="E88_Ans2">Continue down the tunnel.</string> // leads to E
+
+    <string name="E89_Story">As you join Elaine in exploring this tunnel, she comments that at one time ages ago this might have been a lava tube of some
+        sort. Ages have passed since then, as sediment has made its way to here, possibly during times of flooding. Further down the tunnel you see light!
+        Let\'s see where this goes!</string>
+    <string name="E89_Ans1"></string> // this button will be hidden
+    <string name="E89_Ans2">Continue.</string> // leads to E94_Story
+
+    <string name="E94_Story">The tunnel snakes around and opens up into a much larger area. Sand crunches underfoot, and you continue to hear the rush of
+        the river nearby. At this point a flashlight is no longer needed as there is enough light to see without it. A few insects scamper out of the way
+        as you and Elaine make your way towards the ever-brightening light. Elaine stops for a moment to marvel at the design made from ages past. A quick
+        picture here and there, and off you go! A breeze wafts in, carrying with it the scent of nearby foliage.</string>
+    <string name="E94_Ans1"></string> // this button will be hidden
+    <string name="E94_Ans2">Follow the light!</string> // leads to E95_Story
+
+    <string name="E95_Story">As you and Elaine round a bend in the tunnel, it opens up to a waterfall making its way down into a nearby forest. At this
+        angle you see various hills and trees poking out around you. This spot is very serene, so you both take a quick break to appreciate it. During this
+        time you notice that it\'s late afternoon, and that you\'ve both been walking for hours without realizing it. How far have you come you wonder? As
+        you get up to stretch, you notice that the cave continues on the opposite side of the waterfall. A large jumble of logs at the edge of the
+        waterfall might have presented you with a natural bridge. You tentatively give them a kick here and there, then ease yourself on top before making
+        your way across. None of them budge even an inch, seemingly stuck fast to the rocks. After quite a bit of coaxing, and hand-holding, Elaine
+        reluctantly follows.</string>
+    <string name="E95_Ans1"></string> // this button will be hidden
+    <string name="E95_Ans2">Continue.</string> // leads to E100_Story
+
+    <string name="E100_Story">Continuing down the other side of the river, it seems more lava tubes have carved out some natural tunnels. As you progress
+        deeper, the light dimishes, and you resume using your flashlights again. You aren\'t sure how much longer these ones will last, but Elaine assures
+        you that she brought backup ones just in case. It definitely helps to have smart friends! Further on the tunnel breaks open to give you another
+        view of the river. Are you heading in the direction of the camp site you saw earlier? It sure seems like it!</string>
+    <string name="E100_Ans1"></string> // this button will be hidden
+    <string name="E100_Ans2">Follow the tubes.</string> // leads to E101_Story
+
+    <string name="E101_Story">To your dismay, the tunnel ends near where you saw the camp, but not quite to it. Shoot! You and Elaine take a moment to
+        watch the river, and a small flurry of bats making their way down the river towards the cave entrance. It must be getting dark if they have decided
+        to make their way on out. You and Elaine site down to discuss your options since you still need to make your way back home. You want to search
+        around just in case anything was missed, but Elaine is tired, sore, and wants to head home. What do you do?</string>
+    <string name="E101_Ans1">5 more minutes!</string> // leads to E106_Story
+    <string name="E101_Ans2">Go home.</string>
+
+    <string name="E106_Story">After some epic begging and giving Elaine a few promises of favors yet to come, she gives you a bit of time to check out the
+        area before heading on home. You make the best of it and double-check all the areas you previously looked at without finding anything. Feeling a
+        bit defeated, you flop down on the rocky sand for a minute to ponder things out. Not long into this process, you are interrupted with a tiny screech
+        coming from above you. You quickly flash your light over to where it came from, and see a bat crawling out of a horizontal hole about 15 feet up that
+        you previously overlooked as it was obscured by a stalactite. It quickly flies off, but then another comes out and joins it. How odd. Piquing your
+        curiosity, you cauthiously climb up and peer in. No more bats, but it does look like it leads to another area! On top of it, you are fairly certain
+        it\'s wide enough to crawl through. The drawback here would be crawling through bat guano... ick! Elaine wants no part of all that! Do you wish to
+        go in alone? Or is it time to head back?</string>
+    <string name="E106_Ans1">Continue alone!</string> // leads to E107_Story
+    <string name="E106_Ans2">Go home.</string>
+
+    <string name="E107_Story">You crawl through the small opening, and sure enough it dumps out on the other side to where the mining camp is at! Rather
+        ungracefully you make your way out of the crawl space and into the camp. Here you see a couple of small tents, areas where people slept, and various
+        litter of old cans, utensils, etc. lying about in the sand. Nearby a table rests against one of the walls with various writing instruments. Most
+        importantly, the prize you were seeking is here. A small bag with a few coins spilling out is nearby. You brush them off and empty out the contents.
+        Various silvery things are within, small chunks of silver, coins, a tooth? Wow, quite the eclectic collection here! As you marvel at it, you hear
+        Elaine asking if everything is alright, to which you excitedly reply it is! With a hoot, you take your prize and make your way back to her. You show
+        her your find and decide to make your way back home. Throughout the trek you excitedly discuss the various knickknacks this sack holds, vowing to
+        come back sometime soon to explore more!</string>
+    <string name="E107_Ans1"></string> // this button will be hidden
+    <string name="E107_Ans2">Continue.</string> // leads to E112_Story
+
+    <string name="E112_Story">We hope you have enjoyed the story so far! Please keep an eye out for the next adventure as this one was just a teaser for more
+        to come!</string>
+    <string name="E112_Ans1">Play again!</string> // leads to T1_Story
+    <string name="E112_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="E113_Story">Elaine is right, it\'s getting dark and there is a LOT of walking ahead of you in order to get back home. With a sigh you both
+        get back to your feet and start the long walk back. During this time you both talk about how cool this adventure was, and to set a date to come back
+        and explore some more!</string>
+    <string name="E113_Ans1"></string> // this button will be hidden
+    <string name="E113_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="E118_Story">You eye the old wooden ladder warily, but after a few tentative bounces on the lower struts, you believe it\'s safe to climb.
+        Up the ladder you go! When you reach the top you see a hole through the ceiling that is mostly blocked off, but air is still passing through. This spot
+        looks like a crude chute, for ore maybe? As you ponder this, you hear some some eerie noises... whispers maybe? ...faint and indistinct near you.
+        Hopefully that\'s just the wind, but just in case, let's get out of here and move on! You come back down and look a bit pale to Elaine, before hastily
+        making your way further down the tracks.</string>
+    <string name="E118_Ans1"></string> // this button will be hidden
+    <string name="E118_Ans2">Move faster.</string> // leads to E119_Story
+
+    <string name="E119_Story">As you both make your way down the tunnel, you continue to feel a faint breeze move past you. All around the floor, streaky
+        patterns show the wind had some fun creating art. How neat! Elaine stops you to take a few pictures. Now you are both curious where this tunnel ends;
+        I mean, it has to at some place right? Elaine looks lost in thought as you make your way further down.</string>
+    <string name="E119_Ans1"></string> // this button will be hidden
+    <string name="E119_Ans2">Moving on.</string> // leads to E124_Story
+
+    <string name="E124_Story">The tunnel abruptly ends at another cave-in - drat! You hear the wind blowing through the cracks in the mess before you, making
+        an occasional whistle or hum. As you peer through the cracks, you notice something interesting on the other side - a desk! How odd. You confer with
+        Elaine, and she has a sudden epitome about where you are at! There is an old mine that's a few miles outside of town, which has been boarded up...
+        and this might be it! Do you wish to try and find a way past the cave-in? Or turn around and explore elsewhere?</string>
+    <string name="E124_Ans1">Search</string> // leads to E125_Story
+    <string name="E124_Ans2">Turn around.</string>
+
+    <string name="E125_Story">You carefully examine the rocks before you to try and figure out a way past them. There are a few places where you can fit your
+        arm and some of your body through, but it all feels really claustrophobic. Although... if you move here, contort a bit there, and pull yourself a bit
+        over there... hmm. You are guessing you *might* fit through one area - or get horribly stuck. Elaine carefully reviews the area with you, and has a
+        better idea! She saw where one of the beams was making a fulcrum, and with a bit of effort, you should be able to shift a large rock out of the way
+        and crawl in. Do you want to try Elaine\'s idea? Or go explore someplace else?</string>
+    <string name="E125_Ans1">Trust Elaine.</string> // leads to E130_Story
+    <string name="E125_Ans2">Explore further!</string> // leads to E131_Story
+
+    <string name="E130_Story">You decide to trust Elaine and her idea of using leverage to move one of the larger rocks out of the way. You try with your
+        combined weight, but it\'s not enough to budge the rocks. Using some supplies from her pack, Elaine quickly crafts a net. You spend a bit of time
+        piling up some rocks in it, then use a bit of additional leverage to hoist the rocks up a bit on the beam. The rocks creak and shift a bit, but don\'t
+        move quite yet. At this point, you decided to be a little wild, and climb up the rocks to jump down on the beam! *CRACK!* The rock moves and falls out
+        of the way, leaving a spot large enough to crawl through! You brush yourself off, and look around. Elaine makes her way through the opening and does
+        the same. Sure enough a desk is here, with a note pinned to it by a dagger. Next to the note is a large bag, tied up at the top. You examine the note
+        and it reads \"Here lies a sample of my wealth, left to whomever has the gumption and fortitude to find it. On the back of this letter is a map which
+        leads to where the next clue lies.\" Below this is signed James, with a small symbol of an eye in a pyramid beneath that. You flip the note over, and
+        sure enough you see a rough map to... someplace. You hand the note over to Elaine and check out the bag. After unravelling the top of it, you pour out
+        a handful of 1800\'s silver dollars! There has to be at least a hundred of these by the size and weight of this bag! Quite the find! You check the time
+        and realize you\'ve spent all day down here, so it\'s time for the both of you to make your way back home. You two chat excitedly about your find along
+        the way back, already thinking about a plan for your next adventure!</string>
+    <string name="E130_Ans1"></string>
+    <string name="E130_Ans2"></string>
+
+    <string name="E131_Story"></string>
+    <string name="E131_Ans1"></string>
+    <string name="E131_Ans2"></string>
+
+
+    // Strings for Greg's storyline
+    <string name="G7_Story">Greg doesn\'t take any convincing. With little delay, you return to the site you discovered. Greg lifts the manhole cover
+        with ease and clambers down the metal rungs, skipping most of them before hopping to the uneven floor below. You hurriedly follow. Your
+        flashlight beam shows a wide passage to the left and another to the right.</string>
+    <string name="G7_Ans1">Inspect the area.</string> // leads to G12_Story
+    <string name="G7_Ans2">Move on.</string> // leads to G13_Story
+
+    <string name="G12_Story">As you start checking out the area, Greg snorts at you before giving you an exasperated look. He then points down the two
+        passageways, one after the other, before looking at you expectantly. I guess he\'s right, let\'s go find something a bit more interesting than a
+        dusty room and rusty metal. You do hear a faint indiscernible noise down the left tunnel. However, the right tunnel seems ominously quiet.
+        Which way do you go?</string>
+    <string name="G12_Ans1">Go left.</string> // leads to G18_Story
+    <string name="G12_Ans2">Go right.</string> // leads to G19_Story
+
+    <string name="G13_Story">Let\'s go find something a bit more interesting than a dusty room and rusty metal. You do hear a faint indiscernible noise
+        down the left tunnel. However, the right tunnel seems ominously quiet. Which way do you go?</string>
+    <string name="G13_Ans1">Go left.</string> // leads to G18_Story
+    <string name="G13_Ans2">Go right.</string> // leads to G19_Story
+
+    <string name="G18_Story">The left passage opens into a small room in which the walls and ceiling have somewhat crumbled away with time. All around
+        the floor you see trash and debris of times gone by - various rusty bits of cans, silverware, etc., along with faded and torn papers... old
+        newspapers maybe? Further down the tunnels sounds the running water. Do you take the time to go through the debris, or move on down the
+        tunnels? Your flashlight beam shows the tunnel continues forward, or you can go through the crack in the wall to your right.</string>
+    <string name="G18_Ans1">Search the debris.</string> // leads to G24_Story
+    <string name="G18_Ans2">Move on.</string> // leads to G25_Story
+
+    <string name="G19_Story">You two decide to follow the right passage, which soon opens into a large underground area. Mining cart tracks can be
+        seen running as far as you can see to the left, but to the right it seems there was a cave in of some sort which has buried the tracks and
+        blocked the path. One of the carts sits still on its tracks, and nearby you see what looks to be a lift. Greg starts \'looking for gold\'
+        ...really? Do you look around with him, or continue down the tracks?</string>
+    <string name="G19_Ans1">Look for gold.</string> // leads to G30_Story
+    <string name="G19_Ans2">Follow the tracks.</string> // leads to G31_Story
+
+    <string name="G24_Story">Before you start rummaging through the debris, Greg gets your attention - he\'s found something! Half-buried under some
+        rocks, an ivory handle sticks out. Greg grabs it, and pulls out an old hunting knife! He brushes off the dirt and grime, then uses his nails
+        to work away a bit of rust to show a name and date: James -- Aug 5, 1876. The rest of the name is corroded and indiscernible. At this point
+        Greg is excited to continue on and see what else you can find! Straight ahead, the tunnel continues on, but there is a crack in the wall to
+        the right.</string>
+    <string name="G24_Ans1">Go forward.</string> // leads to G36_Story
+    <string name="G24_Ans2">Go right.</string> // leads to G37_Story
+
+    <string name="G25_Story">Straight ahead, the tunnel continues on, but there is a crack in the wall to the right.</string>
+    <string name="G25_Ans1">Go forward.</string> // leads to G36_Story
+    <string name="G25_Ans2">Go right.</string> // leads to G37_Story
+
+    <string name="G30_Story">It looks like the lift has seen better days. The chains and levers seem to have rusted and become unusable. You check the
+        mine cart, but it\'s empty and rusted; Greg seems disappointed by this. As you look at the rocks, you see something flash white very briefly.
+        You hop up on the rocks and look at it at an angle, and see that some poor unfortunate person from days past got trapped under a cave-in! Greg
+        quickly scampers over to look as well - it seems he has a morbid fascination for this. Time to move on my friend!</string>
+    <string name="G30_Ans1"></string> // This button will be hidden
+    <string name="G30_Ans2">Continue.</string> // leads to G42_Story
+
+    <string name="G31_Story">As you make your way down the tracks, you think about the poor unfortunate person crushed under the rocks behind you.
+        Greg sees this, and cracks a rather inappropriate joke, which you can\'t help but laugh at. You shake your head a bit and continue down the
+        tracks.</string>
+    <string name="G31_Ans1"></string> // this button will be hidden
+    <string name="G31_Ans2">More tracks...</string> // leads to G43_Story
+
+    <string name="G36_Story">As you continue exploring, the sound of rushing water is unmistakable; you imagine not too much further down you should
+        be able to see it soon! Meanwhile the tunnels have become a lot rougher... as if this area was haphazardly chipped away by some diggers. All
+        around are various chunks of rock, and some scattered tracks of small critters. Greg hears the water and excitedly runs on ahead of you!
+        ...Hey! Wait up!</string>
+    <string name="G36_Ans1"></string> // this button will be hidden
+    <string name="G36_Ans2">Follow Greg.</string> // leads to G49_Story
+
+    <string name="G37_Story">Greg attempts to squeeze his way into the crack, but gets stuck! OH NO! You start to panic a bit when failing to dislodge
+        him! Sometime between Greg pushing, and you pulling, someone scares you when they say \"Hello? Is someone down here?\" You quickly recover and
+        get their help, and with a bit of effort you get Greg pulled out of the crack in the wall... with only a little skin missing too! Ouch!
+        Unfortunately for you, they also let you know that you are both trespassing and need to leave. Oh no, busted!</string>
+    <string name="G37_Ans1">Try again!</string> // leads to T1_Story
+    <string name="G37_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="G42_Story">As you make your way down the tracks, you think about the poor unfortunate person crushed under the rocks behind you.
+        Greg sees this, and cracks a rather inappropriate joke about them being \'boned\', which you can\'t help but laugh at. You shake your head a bit
+        and continue down the tracks.</string>
+    <string name="G42_Ans1"></string> // this button will be hidden
+    <string name="G42_Ans2">Continue.</string> // leads to G54_Story
+
+    <string name="G43_Story">following the tracks without Greg</string>
+    <string name="G43_Ans1"></string> // leads to G55_Story
+    <string name="G43_Ans2"></string> // leads to G60_Story
+
+    <string name="G48_Story">following the tracks without Greg</string>
+    <string name="G48_Ans1"></string> // leads to G61_Story
+    <string name="G48_Ans2"></string> // leads to G66_Story
+
+    <string name="G49_Story">The tunnel breaks into an underwater river that rushes merrily past you. You flash your light across the water and both of
+        you notice a natural cave entrance on the other side angling up and going further in. Before you can say anything, Greg jumps in and starts
+        fording the river on his way to the cave. You let out a sigh before making your way across the river, following Greg...</string>
+    <string name="G49_Ans1"></string> // this button will be hidden
+    <string name="G49_Ans2">Follow Greg.</string> // leads to G67_Story
+
+    <string name="G54_Story">After a dozen or so more terrible jokes, you two come up to a fork tunnel veering off diagonally to the left of you. It
+        looks like whoever was digging down here found something interesting and carved out a spidery path. Flecks of something metallic can be seen
+        coating the floor. Greg rushes over and scoops up a handful of it. It glints metallic in his hands, and he grins while pondering if it\'s worth
+        anything. Do you wish to poke around in the dirt with Greg? Maybe go down this tunnel and away from the tracks? Or keep following the tracks
+        and see where they go?</string>
+    <string name="G54_Ans1">Dig in the dirt.</string> // leads to G72_Story
+    <string name="G54_Ans2">Move on.</string> // leads to G73_Story
+
+    <string name="G55_Story">Continue without Greg</string>
+    <string name="G55_Ans1"></string> // leads to G
+    <string name="G55_Ans2"></string> // leads to G
+
+    <string name="G60_Story">Continue without Greg</string>
+    <string name="G60_Ans1"></string> // leads to G
+    <string name="G60_Ans2"></string> // leads to G
+
+    <string name="G61_Story">Continue without Greg</string>
+    <string name="G61_Ans1"></string> // leads to G
+    <string name="G61_Ans2"></string> // leads to G
+
+    <string name="G66_Story">Continuing without Greg</string>
+    <string name="G66_Ans1"></string> // leads to G
+    <string name="G66_Ans2"></string> // leads to G
+
+    <string name="G67_Story">You wade into the river a bit -- ooh that\'s cold! -- and make your way across using the shallow spots to guide you. The
+        water is moving rather powerfully, more so than you expected, but Greg noticed this as well and pulls you through it. You both make your way
+        across and into the cave. Good, the flashlight still works! The cave itself it\'s definitely interesting, especially since you've never seen
+        what stalactites and stalagmites looked like in person before. Angling to your right there is another cave opening that you think you could
+        reach if you climbed just a bit. We\'ve come this far, let's see where this goes...</string>
+    <string name="G67_Ans1"></string> // this button will be hidden
+    <string name="G67_Ans2">Climbing rocks.</string> // leads to G78_Story
+
+    <string name="G72_Story">While checking out the area with Greg, you see a glint of something larger that\'s metallic. You call Greg over and brush
+        away the dirt from a small metallic chain... to discover an old, broken, pocket watch. Well, this can be added to the pile of things for
+        geocaching at least! Other than that, nothing else of interest comes up, so it's time to continue exploring! Continue down the side tunnel, or
+        keep following the tracks?</string>
+    <string name="G72_Ans1">Explore the tunnel.</string> // leads to G79_Story
+    <string name="G72_Ans2">Follow the tracks.</string> // leads to G84_Story
+
+    <string name="G73_Story">Let\'s not waste time digging through dirt. Continue down the side tunnel, or keep following the tracks?</string>
+    <string name="G73_Ans1">Explore the tunnel.</string> // leads to G79_Story
+    <string name="G73_Ans2">Follow the tracks.</string> // leads to G84_Story
+
+    <string name="G78_Story">As you work your way up, the climb takes about as much effort as a steep hike, and Greg helps pull you up to the top... a
+        bit muddy if nothing else. As you continue on, there is a natural arch that overlooks the river where you can hear the water quickly rushing -
+        how cool! But wait, what\'s that further on down? Another cave? Another dig site? It looks like someone set up a camp here, but decades ago.
+        What catches your eye is another glint of something metallic, near a sack of some sort. Coins? Greg looks excited, but even he's stopped to
+        check things out. He mentions that the river looks pretty wild here, and points to where it is focused into a fast-moving spot. Do you want to
+        brave it and go check out the camp site? Or turn back because it could be really dangerous this time?</string>
+    <string name="G78_Ans1">Get the shinies!</string> // leads to G85_Story
+    <string name="G78_Ans2">Backtrack.</string> // leads to G90_Story
+
+    <string name="G79_Story">Down the tunnel you go, and with Greg in tow! Greg absent-mindedly kicks a rock, which hits the wall with a *clunk* and
+        seems to dislodge a few more. You give him a bit of a scowl as he grins sheepishly at you, and mumbles out a \"Whoops! Sorry.\" as you continue
+        on down the tracks. A few more creaks and groans from the tunnel beams quickens your pace a bit, and you hope nothing shifted too much.</string>
+    <string name="G79_Ans1"></string> // this button will be hidden
+    <string name="G79_Ans2">Continue.</string> // leads to G91_Story
+
+    <string name="G84_Story">You make your way in what appears to be a junction of some sort. The tracks continue down the tunnel, but now there is
+        another set that lead away down the left. In the middle is a circular contraption that looks like was used to change the direction of a mine
+        cart. All around here are various discarded tools used for mining. You notice an old pickaxe, a rusty lantern, and a shovel; all of which are
+        haphazardly lying about in various states of disrepair. An old minecart is toppled over off to the side, and some sort of noise is coming from
+        it. Greg grabs the rusty lantern and throws it at the mine cart. A big brown rat squeaks and bolts out from under it, quickly making its way
+        down the tunnels. Greg chuckles as you give him a smirk. Do you search around, or keep going?</string>
+    <string name="G84_Ans1">Search the cart.</string> // leads to G96_Story
+    <string name="G84_Ans2">Move on.</string> // leads to G97_Story
+
+    <string name="G85_Story">You look around for a way down, and manage to find a rocky area that seems to have enough hand and foot holds to get down
+        to the river. As you start to climb down, the rocks come out from your grasp! OH NO! *SPLASH!* You fall into the river and briefly try to orient
+        yourself before hitting your head on something that hurts! ...as all goes black... ... ... ...you wake up spluttering and disoriented with Greg
+        laughing frantically, mentioning he jumped in after you and brought you back to the edge. Fortunately he knew CPR, otherwise you might\'ve been
+        a goner! Your head is pounding, and slightly bloody, but at least you\'re alive - too bad adventure time is over. Greg helps you up, and you
+        start an agonizing trip back home.</string>
+    <string name="G85_Ans1">Try again!</string> // leads to T1_Story
+    <string name="G85_Ans2">Play later.</string> // leads to End_Story
+
+    <string name="G90_Story">Backtracking</string>
+    <string name="G90_Ans1"></string> // leads to G102_Story
+    <string name="G90_Ans2"></string> // leads to G103_Story
+
+    <string name="G91_Story">While making your way further down the tunnel, you start to hear a faint *whooshing* noise coming from further ahead. A
+        squishy, gurgly, grumbly noise emanates from your stomach, and then Greg\'s, and you both realise that it\'s been a bit before you had
+        something to eat. Fortunately you remembered to at least grab an energy bar before heading out! Unfortunately it\'s not enough to feed the both
+        of you, as Greg gives you a starving dog look. With a resigned sigh, you split the bar in half and give him some, which he gobbles down quickly.
+        You\'re not sure if he actually ate it, or just swallowed it whole. Shaking your head a bit, you take a drink from your water bottle, and hand
+        it over to Greg who drinks the rest. Wherever we are going, we need to be quick about it!</string>
+    <string name="G91_Ans1"></string> // leads to G108_Story
+    <string name="G91_Ans2"></string> // leads to G109_Story
+
+    <string name="G96_Story">You search around the area, but don\'t find anything of interest. Greg checks out where the rat was and finds a nest of
+        some sort, full of various bits of grasses, string, pieces of paper, and other innocuous things. With a sigh, he looks over at you and asks
+        where to next?</string>
+    <string name="G96_Ans1">Follow left tunnel.</string> // leads to G114_Story
+    <string name="G96_Ans2">Continue straight.</string> // leads to G115_Story
+
+    <string name="G97_Story">You decide you don\'t want to know why a large rat found that cart appealing. A new tunnel branches off to the left, or
+        you can continue straight.</string>
+    <string name="G97_Ans1">Follow left tunnel.</string> // leads to G114_Story
+    <string name="G97_Ans2">Continue straight.</string> // leads to G115_Story
+
+    <string name="G102_Story">backtracking</string>
+    <string name="G102_Ans1"></string> // leads to G
+    <string name="G102_Ans2"></string> // leads to G
+
+    <string name="G103_Story">backtracking</string>
+    <string name="G103_Ans1"></string> // leads to G
+    <string name="G103_Ans2"></string> // leads to G
+
+    <string name="G108_Story">Hoping Greg doesn\'t resort to cannibalism</string>
+    <string name="G108_Ans1"></string> // leads to G
+    <string name="G108_Ans2"></string> // leads to G
+
+    <string name="G109_Story">Hoping Greg doesn\'t resort to cannibalism</string>
+    <string name="G109_Ans1"></string> // leads to G
+    <string name="G109_Ans2"></string> // leads to G
+
+    <string name="G114_Story">following left tunnel</string>
+    <string name="G114_Ans1"></string> // leads to G
+    <string name="G114_Ans2"></string> // leads to G
+
+    <string name="G115_Story">continuing straight</string>
+    <string name="G115_Ans1"></string> // leads to G
+    <string name="G115_Ans2"></string> // leads to G
+
+    <string name="G120_Story"></string>
+    <string name="G120_Ans1"></string>
+    <string name="G120_Ans2"></string>
+
+    <string name="G121_Story"></string>
+    <string name="G121_Ans1"></string>
+    <string name="G121_Ans2"></string>
+
+    <string name="G126_Story"></string>
+    <string name="G126_Ans1"></string>
+    <string name="G126_Ans2"></string>
+
+    <string name="G127_Story"></string>
+    <string name="G127_Ans1"></string>
+    <string name="G127_Ans2"></string>
+
+</resources>
